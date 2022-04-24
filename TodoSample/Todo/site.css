@@ -1,0 +1,105 @@
+﻿* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+header {
+    text-align: center;
+    background-color: #f2cd00;
+    border-radius: 20px;
+    height: 100px;
+    color: black;
+    line-height: 100px;
+}
+
+.back-color {
+    background-color: #f2cd00;
+}
+
+.todo-content-back-color {
+    background-color: #808080;
+}
+
+.todo-input-aside {
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+}
+
+    .todo-input-aside label {
+        color: white;
+        font-size: 18px;
+    }
+
+    .todo-input-aside input {
+        width: 350px;
+        font-size: 18px;
+    }
+
+.btn {
+    width: 40px;
+    height: 25px;
+    background-color: transparent;
+    opacity: 80%;
+    color: white;
+    border: 2px solid darkblue;
+    border-radius: 3px;
+}
+
+    .btn:hover {
+        opacity: 100%;
+    }
+
+.todo-content {
+    margin-top: 10px;
+    display: flex;
+}
+
+.todo-area {
+    width: 50%;
+    border: 1px solid red;
+    display: inline-flex;
+    min-height: 300px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.todo-header {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.todo-article {
+    display: inline-block;
+    width: 100%;
+}
+
+    .todo-article ul li {
+        width:100%;
+        padding:5px 5px;
+    }
+
+        .todo-article ul li .checkbox {
+            width: 5%;
+            height: 10px;
+        }
+        .todo-article ul li .text{
+            width: 70%;
+            height: 15px;
+        }
+        .todo-article ul li i{
+            width:5%;
+            padding:3px;
+        }
+
+
+.todo-complete {
+    text-decoration: line-through;
+}
